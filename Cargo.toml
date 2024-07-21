@@ -17,6 +17,7 @@ members = [".", "examples"]
 
 [dependencies]
 loom = { version = "0.7", optional = true }
+sptr = "0.3"
 
 [dev-dependencies]
 criterion = "0.5"

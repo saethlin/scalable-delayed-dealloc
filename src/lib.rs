@@ -1,4 +1,6 @@
 #![deny(missing_docs, warnings, clippy::all, clippy::pedantic)]
+// sptr's name collisions are deliberate; its implementation is the same so the collision is harmless.
+#![allow(unstable_name_collisions)]
 #![doc = include_str!("../README.md")]
 
 mod atomic_owned;
